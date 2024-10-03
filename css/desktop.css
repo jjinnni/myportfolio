@@ -18,23 +18,17 @@
         position: unset;
         top: unset;
         left: unset;
+        width: unset;
+        height: unset;
         display: flex;
         justify-content: end;
         padding: 0 40px;
         font-size: 32px;
         font-weight: bold;
     }
-    /* header .wrap nav{
-        position: fixed;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
-        transition: all 0.2s;
-        z-index: 99999;
-        padding: 24px
-    } */
+    header .wrap nav .navheader{
+        display: none;
+    }
     header .wrap nav .menu li{
         padding-bottom: 5px;
     }
