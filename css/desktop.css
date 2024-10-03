@@ -1,0 +1,198 @@
+@media (min-width: 1200px){
+    .pc{display: block;}
+    .m{display: none;}
+
+    header{
+        padding: 40px 40px 0;
+    }
+    header .wrap{    
+        align-items: start;
+    }
+    header .wrap h1 img{
+        width: 100%;
+    }
+    header .wrap .menubtn button{
+        display: none;
+    }
+    header .wrap nav{
+        display: flex;
+        justify-content: end;
+        padding: 0 40px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    header .wrap nav .menu li{
+        padding-bottom: 5px;
+    }
+    #main{
+        padding: 0 40px 100px;
+    }
+    #main .wrap{
+        width: 660px;
+        max-width: 1320px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: relative;
+    }
+    #main .wrap .text1 .maintext{
+        font-size: 60px;
+    }
+    #main .wrap .text1 .subtext{
+        font-size: 20px;
+    }
+    #main .wrap .text2{
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: -50px;
+        transform: translate(0, 0) rotate(-90deg);
+        transform-origin: left bottom;
+    }
+    #main .wrap .mainimg img{
+        width: 100%
+    }
+    section #sec1{
+        padding: 0 40px 100px;
+    }
+    section #sec1 .wrap{
+       max-width: 1320px;
+       margin: 0 auto;
+    }
+    section #sec1 .wrap .tit .name{
+        font-size: 24px;
+    }
+    section #sec1 .wrap .tit .date{
+        font-size: 18px;
+    }
+    section #sec1 .wrap .history .historytit{
+        font-size: 20px;
+    }
+    section #sec1 .wrap .history .historycon .content .text{
+        font-size: 18px;
+    }
+    section #sec1 .wrap .history .historycon .content .date{
+        font-size: 16px;
+    }
+    section #sec2{
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+    section #sec2 h2{
+        padding: 50px 40px;
+    }
+    section #sec2 .wrap{
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0 40px 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    section #sec2 .wrap .skills .icon{
+        order: 1;
+        background-color: #fff;
+    }
+    section #sec2 .wrap .skills .icon img{
+        width: 60px;
+        height: 60px;
+    }
+    section #sec2 .wrap .skills .tit{
+        font-size: 24px;
+        padding: 20px 0;
+        order: 2;
+    }
+    section #sec2 .wrap .skills .con{
+        order: 3;
+        padding: unset;
+        border-top: unset;
+    }
+    section #sec3{
+        padding: 100px 40px 100px;
+    }
+    section #sec3 h2{
+        padding-bottom: 50px;
+    }
+    section #sec3 .wrap{
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+    section #sec3 .wrap .projects .bgc{
+        position: relative;
+        width: 100%;
+    }
+
+    section #sec3 .wrap .projects .bgc img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    section #sec3 .wrap .projects .bgc .text{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translatey(-50%);
+        padding: 0 40px;
+    }
+    section #sec3 .wrap .projects .bgc .text .tit{
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+    section #sec3 .wrap .projects .bgc .text .date{
+        font-size: 16px;
+    }
+    section #sec3 .wrap .projects .bgc .text .con{
+        font-size: 18px;
+    }
+    section #sec3 .wrap .projects .bgc .text .view{
+        position: absolute;
+        bottom: 0; 
+        right: 40px; 
+        z-index: 3; 
+    }
+    section #sec3 .wrap .projects .bgc .text .view a{
+        font-size: 24px;
+    }
+    section #sec4{
+        width: 100%;
+        background-color: #f0f0f0;
+    } 
+    section #sec4 h2{
+        padding: 50px;
+    }
+    section #sec4 .mySwiper{
+        padding: 0 40px 100px;
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+    section #sec4 .mySwiper .swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; 
+    }
+    section #sec4 .mySwiper .swiper-wrapper .swiper-slide {
+        background-color: #555;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 0;
+    }
+    section #sec4 .mySwiper .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #footer .wrap{
+        padding: 100px 40px 100px;
+    }
+    #footer .wrap h2{
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+    #footer .wrap .text .text1{
+        font-size: 20px;
+    }
+    #footer .wrap .text .text3 .mail{
+        font-size: 20px;
+    }
+}
