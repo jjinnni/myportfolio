@@ -176,13 +176,14 @@ section #sec3 .wrap .projects .bgc .text{
 section #sec3 .wrap .projects .bgc .text .box{
     display: flex;
     gap: 10px;
-    font-weight: bold;
     padding-bottom: 10px;
 }
 section #sec3 .wrap .projects .bgc .text .box div{
     border: 1px solid #fff;
     border-radius: 4px;
     padding: 2px 8px;
+    font-size: 14px;
+    font-weight: bold;
 }
 section #sec3 .wrap .projects .bgc .text .tit{
     font-size: 20px;
